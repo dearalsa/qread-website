@@ -100,7 +100,7 @@ export default function CombinedPage() {
         </main>
       </section>
 
-      <section ref={quranSectionRef} className={`relative min-h-screen py-20 px-6 transition-colors duration-1000 ${isDarkMode ? 'bg-[#0F172A]' : 'bg-white'}`}>
+      <section ref={quranSectionRef} className={`relative min-h-screen py-20 px-6 transition-colors duration-1000 ${isDarkMode ? 'bg-[#0F172A]' : 'bg-[#F8F5F0]'}`}>
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-['Bona_Nova'] font-bold mb-4">Daftar Surah Al-Quran</h2>
